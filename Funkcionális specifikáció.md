@@ -1,7 +1,11 @@
 # Funkcionális specifikáció
 
 ## 1. Áttekintés
-...
+A megrendelő cég egy olyan utazási iroda, amely felszeretné mérni hazai ügyfelei utazási igényeit.
+Ennek megvalósításához egy kérdőív alapú weboldalt rendeltek. 
+Fontos számukra, hogy jogosultság alapján az oldalon elkülönüljön a regisztrált (kérdőívet kitöltő) felhasználó és az utazási iroda (kérdőíveket létrehozó) munkatársai.
+A rendszer méri a különböző kérdőívekben leadott válaszadási arányokat és ebből készít egy átfogó statisztikát megrendelőnk számára. 
+Ők később ezen adatok felhasználásval alakítják kínálatukat és reklámfogásaikat.
 
 
 ## 2. Jelenlegi helyzet
