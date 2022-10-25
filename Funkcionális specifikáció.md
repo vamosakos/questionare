@@ -69,9 +69,10 @@ Továbbá a felhasználók kényelmessége érdekében lehetőségük van keresn
 
 
 ## 8. Képernyő tervek
-![Képernyőterv főmenu1](https://cdn.discordapp.com/attachments/323508728508710913/1034506190702526627/bejelentkezes.png)
-![Képernyőterv főmenu1](https://cdn.discordapp.com/attachments/323508728508710913/1034506203205730344/regisztracio.png)
-![Képernyőterv főmenu1](https://cdn.discordapp.com/attachments/323508728508710913/1034506210508025997/rolunk.png)
+![Képernyőterv bejelentkezés](https://cdn.discordapp.com/attachments/323508728508710913/1034506190702526627/bejelentkezes.png)
+![Képernyőterv regisztráció](https://cdn.discordapp.com/attachments/323508728508710913/1034506203205730344/regisztracio.png)
+![Képernyőterv rólunk](https://cdn.discordapp.com/attachments/323508728508710913/1034506210508025997/rolunk.png)
+![Képernyőterv kérdőívek](https://cdn.discordapp.com/attachments/323508728508710913/1034506231466954813/kerdoivek.png)
 
 ## 9. Forgatókönyv
 ...
