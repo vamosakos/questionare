@@ -47,7 +47,17 @@ Továbbá a felhasználók kényelmessége érdekében lehetőségük van keresn
 
 
 ## 5. Igényelt üzleti folyamatok
-...
+1. A látogató a főoldalon olvashat egy rövid leírást a kérdőívek céljáról, valamint a menüpontoknál választhat a bejelentkezés és regisztráció gombok között.
+2. A regisztráció gombra való kattintás után átirányításra kerül egy regisztrációs ablakba.
+3. Regisztrálni adatai kitöltésével lehetséges az alábbi sorrendben; teljes név, email, jelszó
+4. A regisztráció után a bejelentkezés fülre kattintva átirányításra kerül a bejelentkezés ablakba.
+5. Bejelentkezéshez a regisztrációkor megadott email cím, és jelszó páros megadása szükséges.
+6. Bejelentkezés után újra a főodalon találja magát a felhasználó, ahol már a kérdőívek böngészésére is lehetőség van.
+7. A külön jogosultsággal rendelkezőknek (munkatársak) lehetőségük van kérdőívek feltöltésére, ahol személyre szabhatóan alakítják, formázhatják a később válaszadási lehetőségeket.
+8. A kész kérdőív utólagos szerkesztésére is lehetősége van, a "Szerkesztés" nevü gomb használatával.
+9. A főoldalon található kérdőívek közül a felhasználó válogathat a különböző kérdőívek közül, ezek segítségére használhatja a kersés mező funkcióit.
+10. A kérdőív tulajdonosa (munkatárs) lehetőséget kap a válaszok összességéből kimutatott statisztikákra, majd azok nyomtatására.
+11. A felhasználónak egy kérdőív csak addig jelenik meg a főoldalon amíg azt ki nem töltötte, a már kitöltött kérdőívek visszaigazolókódjának nyomtatására a kitöltés után van lehetősége.
 
 
 ## 6. Használati esetek
