@@ -9,7 +9,8 @@ Ezen statisztikák ismeretével a kínálatot az e fajta prioritások alapján v
 
 
 ## 2. Jelenlegi helyzet
-...
+Jelenleg egy jól működő utazási irodaként munkálkodunk, ahol próbálunk az alacsony ár és biztonságos utazások biztosítása mellett, a naprakészségben is kiválóan teljesíteni.
+Ehhez elengedhetetlen az ügyefeleink megismerése és az Ő általuk megítélt legnépszerűbb utazási célpontok információinak begyűjtése. Ám ennek szegmensnek eddig nem túl sok profitja volt, ezért kezdenénk bele ebbe a projektbe. Ugyanis a projekt segítségével ezekre mind lehetőségünk nyilna. Nem csak egy-egy felhasználó cél országát, vagy települését tudnánk ezzel felmérni, hanem a kimutatott statisztikákkal könnyebben és pontosabb ajánlatot tudnánk ezáltal az ügyfeleinknek nyújtani.
 
 
 ## 3. Vágyálom rendszer
