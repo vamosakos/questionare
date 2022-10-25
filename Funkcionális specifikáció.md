@@ -5,7 +5,12 @@
 
 
 ## 2. Jelenlegi helyzet
-...
+A megrendelő különböző statisztikákat szeretne kimutatni a felhasználói / ügyfelei igényeiről.
+Ennek segítségéül egy olyan weboldalt készítünk el, ahol kérdőívek hozhatóak létre és ezekre különböző válaszok megadására van opció.
+A felhasználók közül manuálisan tudunk jogosultságot adni annak az utazási iroda munkatársainak akik a kérdőívek feltöltését végzik.
+A kitöltendő kérdőíveket csak regisztrált felhasználók tudják kitölteni, akik válaszából egy összesített statisztika megtekintésére van lehetőség.
+A felhasználók anonimítása érdekében a kliensek adatait nem használjuk fel semmilyen cél érdekében, kizárólag a válaszaiból nyerjük ki a statisztikákat.
+Továbbá a felhasználók kényelmessége érdekében lehetőségük van keresni a különböző kérdőívek között. 
 
 
 ## 3. Követelménylista
