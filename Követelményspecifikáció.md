@@ -19,6 +19,7 @@ Ehhez azonban elengedhetetlen a letisztult, reszponzív dizájn és a figyelemet
 Éppen ezért kifejezetten alapos munkát igényel a felhasználó-barát elrendezés és a megfelelő megjelenés.
 Továbbá szolgálatatásunkat hasonló interface keretében egy mobil appon keresztül is elérhetővé szeretnénk tenni.
 Mindezenmellett, megszeretnénk könnyíteni elkötelezett munkatársaink dolgát is.
+A kérdőívek létrehozásánál lehetőség van személyreszabható opcionális minta megadására a válaszok feltöltésénél.
 A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép által automatikusan generált diagrammok és ábrák segítenek majd. 
 
 
