@@ -14,7 +14,12 @@ Ehhez elengedhetetlen az ügyefeleink megismerése és az Ő általuk megítélt
 
 
 ## 3. Vágyálom rendszer
-...
+Egy olyan weboldalra, illetve rendszerre van szükségünk, ahol ügyfeleink igényeit ismerjük meg.
+Ehhez azonban elengedhetetlen a letisztult, reszponzív dizájn és a figyelemet fenntartó tartalom.
+Éppen ezért kifejezetten alapos munkát igényel a felhasználó-barát elrendezés és a megfelelő megjelenés.
+Továbbá szolgálatatásunkat hasonló interface keretében egy mobil appon keresztül is elérhetővé szeretnénk tenni.
+Mindezenmellett, megszeretnénk könnyíteni elkötelezett munkatársaink dolgát is.
+A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép által automatikusan generált diagrammok és ábrák segítenek majd. 
 
 
 ## 4. Funkcionális követelmények
