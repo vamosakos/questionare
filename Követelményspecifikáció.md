@@ -33,10 +33,10 @@ A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép 
 - Az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény 4.§ (1) és (2) bekezdései.
 
 ### Rendszerszabványok, ajánlások
-- A web felület szabványos eszközökkel készüljüön, html/css/javascript/php.
-- A képek jpg/jpeg/png/gif formátumúak lehetnek.
-- A felhasznlókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR
-- A rendszer bíztosítsa a kérdőívet kitöltő személy teljes anonimítást.
+- A web felület szabványos eszközökkel készüljön, html/css/javascript/php
+- A képek jpg/jpeg/png/gif formátumúak lehetnek
+- A felhasznlókat azonosító weboldalak esetében szükséges jogszabályokat be kell tartani: GDPR
+- A rendszer bíztosítsa a kérdőívet kitöltő személy teljes anonimítását
 - Mindenképp biztosítsa a rendszer az elkezdett, de valamilyen okból félbeszakadt kérdőív kitöltésének folytatását.
 - Legnépszerűbb böngészők támogatása (Chrome, Firefox, Edge, Opera, Safari)
 
