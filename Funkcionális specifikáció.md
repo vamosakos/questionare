@@ -69,7 +69,7 @@ Továbbá a felhasználók kényelmessége érdekében lehetőségük van keresn
 
 
 ## 8. Képernyő tervek
-...
+![Képernyőterv főmenu1](https://cdn.discordapp.com/attachments/323508728508710913/1034506190702526627/bejelentkezes.png)
 
 
 ## 9. Forgatókönyv
