@@ -1,7 +1,11 @@
 # Követelményspecifikáció
 
 ## 1. Áttekintés
-A cégünk érdeke az információ 
+Cégünk egy nemzetközileg is ismert utazási iroda, amely most legkinkább az itthoni ügyfeleink igényeinek felmérését célozza meg.
+A projekt segítségével lehetőség nyílik a magyar utazni vágyók érdekeinek megismerésére és ez által minnél hatékonyobb segíségére.
+Célunk megvalósításához egy olyan weboldal szükséges, ahol munkatársaink könnyedén tudnak kérdőíveket felvinni, illetve szerkeszteni azokat.
+A különböző kérdőívekből a regisztrált felhasználóink válaszaiból pedig könnyedén felmérhetjük ügyfeleink szokásait/igényeit. 
+Ezen statisztikák ismeretével a kínálatot az e fajta prioritások alapján végezzük.
 
 
 ## 2. Jelenlegi helyzet
