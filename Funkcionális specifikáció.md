@@ -73,6 +73,7 @@ Továbbá a felhasználók kényelmessége érdekében lehetőségük van keresn
 ![Képernyőterv regisztráció](https://cdn.discordapp.com/attachments/323508728508710913/1034506203205730344/regisztracio.png)
 ![Képernyőterv rólunk](https://cdn.discordapp.com/attachments/323508728508710913/1034506210508025997/rolunk.png)
 ![Képernyőterv kérdőívek](https://cdn.discordapp.com/attachments/323508728508710913/1034506231466954813/kerdoivek.png)
+![Képernyőterv kérdőív hozzáadása](https://cdn.discordapp.com/attachments/323508728508710913/1034506234423939154/kerdoiv_hozzaadas.png)
 
 ## 9. Forgatókönyv
 ...
