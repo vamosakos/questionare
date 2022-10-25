@@ -27,14 +27,19 @@ A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép 
 
 
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
-...
-
 ### Törvények
 - AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE
 
 - Az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény 4.§ (1) és (2) bekezdései.
 
 ### Rendszerszabványok, ajánlások
+- A web felület szabványos eszközökkel készüljüön, html/css/javascript/php.
+- A képek jpg/jpeg/png/gif formátumúak lehetnek.
+- A felhasznlókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR
+- A rendszer bíztosítsa a kérdőívet kitöltő személy teljes anonimítást.
+- Mindenképp biztosítsa a rendszer az elkezdett, de valamilyen okból félbeszakadt kérdőív kitöltésének folytatását.
+- Legnépszerűbb böngészők támogatása (Chrome, Firefox, Edge, Opera, Safari)
+
 - Trello (kanban tábla)
 - Discord (kommunikáció)
 - Github (a kóddal való együttműködés)
@@ -42,9 +47,10 @@ A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép 
 - Sublime Text (a dokumentáció kidolgozásához)
 - PHP (backend)
 - HTML, CSS (a frontend és a design)
-- Javascript (frontend)
-- Pencil (képernyőtervhez)
-- Oracle SQL (adatbázis)
+- Javascript (backend, frontend)
+- Uizard prototype (képernyőtervhez)
+- MySQL (adatbázis)
+- Laravel (php keretrendszer)
 
 
 ## 6. Jelenlegi üzleti folyamatok modellje
