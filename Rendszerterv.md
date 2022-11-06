@@ -107,7 +107,7 @@
 
 
 ## 9. Adatbázis terv
-...
+![Adatbázis terv](https://cdn.discordapp.com/attachments/323508728508710913/1038906389533315222/image.png)
 
 
 ## 10. Implementációs terv
