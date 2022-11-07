@@ -24,7 +24,16 @@ A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép 
 
 
 ## 4. Funkcionális követelmények
-...
+
+- **Bejelentkezés gomb:** felhasználónév és jelszó együttes megadásával beléphetünk a saját fiókunkba.
+- **Regisztrációs gomb:** az itt megadott adatainkkal kitöltve tudunk fiókot létrehozni.
+- **Kérdőív feltöltése gomb:** kérdőívek feltöltésére szolgál.
+- **Kérdőív szerkesztése gomb:** kérdőívek utólagos szerkesztése miatt.
+- **Kép feltöltése gomb:** képek feltöltése.
+- **Statisztika gomb:** kérdőívekre adott válaszok statisztikája.
+- **Keresés gomb:** kérdőívek közötti keresést biztosítja.
+- **Visszaigazolókód nyomtatása gomb:** lehetőséget nyújt a kérdőív kitöltése után a visszaigazolókód kinyomtatására.
+- **Statisztika nyomtatása gomb:** statisztikák nyomtatására szolgál.
 
 
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
