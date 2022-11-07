@@ -69,7 +69,7 @@ A kivitelezésnél segítenek a folyamatok, különböző ábrákkal, diagrammok
 
 
 ## 7. Igényelt üzleti folyamatok
-...
+![Kövspec - 7. Igényelt üzleti folyamatok](https://media.discordapp.net/attachments/1019343618131120319/1039235605772640276/Kovspec_7_-_Igenyelt_uzleti_folyamatok.jpg)
 
 
 ## 8. Követelménylista
