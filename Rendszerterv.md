@@ -30,7 +30,7 @@
 
 
 ## 3. Üzleti feladatok modellje
-![Üzleti folyamatok modellje](https://media.discordapp.net/attachments/323508728508710913/1039319568436432926/uzleti_folyamatok_modellje.png?width=507&height=676)
+![Üzleti folyamatok modellje](https://media.discordapp.net/attachments/323508728508710913/1039320672574377994/image.png?width=588&height=676)
 
 ## 4. Követelmények
 ### Funkcionális követelmények:
