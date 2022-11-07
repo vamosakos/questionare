@@ -7,7 +7,27 @@
 ...
 
 ## 2. Projektterv
-...
+- **Developer Team**: Csanádi Balázs, Madarasi Gábor, Vámos Ákos, Vámos Márton,  
+- **Developer Support**: Palotai Marcell Martin
+- **Scrum Master**: Vámos Ákos
+- **Product Owner**: Vámos Márton
+
+| Funkció                     | Feladat                                   |
+| ----------------------------| ------------------------------------------|
+| Köv. spec                   | A megrendelő dokumentációja               |       
+| Funk. spec                  | A fejlesztő csapat dokumentációja         |       
+| Rendszerterv                | A rendszer átfogó dokumentációja          |      
+| Adattárolás                 | Adatbázis megvalósítása                   |      
+| Regisztrációs felület       | php/html                                  |      
+| Bejelentkezési felület      | php/html                                  |       
+| Főoldal                     | php/html                                  |
+| Információs oldal           | php/html                                  |
+| Keretrendszer megvalósítása | A keretrendszer megismerése, elsajátítása |
+| Kérdőívek feltöltése        | php/html                                  | 
+| Kérdőívek kilistázása       | php/html                                  |
+| Kérdőívek módosítása        | php/html                                  |    
+| Design                      | css/javascript                            |    
+
 
 ## 3. Üzleti feladatok modellje
 ...
