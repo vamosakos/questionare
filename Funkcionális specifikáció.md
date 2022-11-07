@@ -93,7 +93,8 @@ A mi weboldalunk teljesen átfedi ezeknek a kutatásoknak az előrehaladását. 
 - A szerkesztés gombbal az adott kérdőívet tudjuk szerkeszteni.
 
 ### Nem Funkcionális követelmények megfeleltetése:
-...
+Látványos és egyedülálló dizájn: Minimalista, szem-barát, nyugtató színek
+Egyszerű, gyorsan értelmezhető, letisztult felhasználói felület: Elképesztően fontos, az egész weboldal magja, ezért a legnagyobb figyelmet igényli. 10/10
 
 
 ## 11. Fogalomtár
