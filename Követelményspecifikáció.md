@@ -64,7 +64,8 @@ A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép 
 
 
 ## 6. Jelenlegi üzleti folyamatok modellje
-...
+A mai világban egyre több ember használ kérdőíveket.Ez által, a mi csoportunk célja az, hogy egy minél átláthatóbb, könnyen kezelhető weboldalt hozzunk létre, kérdőívet használók számára. 
+A kivitelezésnél segítenek a folyamatok, különböző ábrákkal, diagrammokkal lesznek a végén szemléltetve egy adott krédőív válaszai.
 
 
 ## 7. Igényelt üzleti folyamatok
