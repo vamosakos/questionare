@@ -82,7 +82,15 @@ A mi weboldalunk teljesen átfedi ezeknek a kutatásoknak az előrehaladását. 
 
 ## 10. Funkció-követelmény megfeleltetés
 ### Funkcionális követelmények megfeleltetése:
-...
+- Az oldal betöltése után megnyílik a főmenü és vele együtt egy rövid leírás a kérdőívek céljáról.
+- Kérdőívek feltötéséhez, kitöltéséhez regisztráció szükséges, azaz érvényes fiókkal kell rendelkeznünk.
+- A regisztrációra kattintva az adatok beírásához az erre kialakított mezőket kell használni.
+- Ha a felhasználónév még nem foglalt és minden mást megfelelő formátumban adtunk meg, létrejön a fiókunk.
+- Ezek után a bejelentkezés fül alatt tudunk bejelentkezni a felhasználó név és jelszó használatával.
+- Bejelentkezés követően képesek vagyunk kérdőívek feltötelni és menteni.
+- Nyomtatás gomb használatával tudunk kérdőívek nyomtatni.
+- Feltöltés gomb segítségével kérdőíveket tudunk az oldalra feltölteni.
+- A szerkesztés gombbal az adott kérdőívet tudjuk szerkeszteni.
 
 ### Nem Funkcionális követelmények megfeleltetése:
 ...
