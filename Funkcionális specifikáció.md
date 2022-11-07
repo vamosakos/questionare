@@ -43,7 +43,8 @@ Továbbá a felhasználók kényelmessége érdekében lehetőségük van keresn
 
 
 ## 4. Jelenlegi üzleti folyamatok modellje
-...
+Többek között kezdhetnénk azzal, hogy kik is használnak kérdőíveket. Elsősorban kutatást végző fiatalok, az egyetemisták például a szakdolgozatuk előrehaladása érdekében. Rajtuk kívül vannak kutatócsoportok akik ugyanilyen felmérésekkel és kérdőívekkel érik el az embereket, illetve általuk haladhat előrébb egy-egy kisebb, nagyobb kutatásuk. Legtöbb esetben elérhetőek a kérdőívek által több korosztályú emberek is. Természetesen ez függ attól, hogy milyen kérdőívet használ a kutató, vagy a kutatócsoport.
+A mi weboldalunk teljesen átfedi ezeknek a kutatásoknak az előrehaladását. Ugyanis, itt meg van az esély arra, hogy feltöltsenek kérdőívet, továbbá el is érhetnek kérdőíveket.
 
 
 ## 5. Igényelt üzleti folyamatok
