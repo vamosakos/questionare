@@ -89,19 +89,16 @@ A kivitelezésnél segítenek a folyamatok, különböző ábrákkal, diagrammok
 
 ## 9. Riportok
 **Q:** Mi lenne a szoftver lényege?
-**A:** A szoftver egy kvízprogram lenne, ahol a regsiztrált felhasználók űrlapokat állíthatnak össze, amire az emberek válaszolhatnak (fiók nélkül is). A válaszokat statisztikába lehet rendezni és ezek alapján az adatok alapján képesek vagyunk bemérni, hogy ki mekkora eséllyel mit fog válaszolni. 
+**A:** A szoftver egy felmérő lenne, ahol a munkatársaink űrlapokat állíthatnak össze, amire az esetleges ügyfeleink válaszolhatnak. A válaszokat statisztikába rendezhetőek és a kapott adatok alapján képesek vagyunk bemérni, hogy a kitöltőnek melyik hely a legoptimálisabb. 
 
 **Q:** Milyen adatokat fog a program bekérni a felhasználótól a kérdéssor előtt?
-**A:** Nevet, nemet és életkort. Ezek alapján fogjuk megtippelni, hogy melyi korosztály mennyi eséllyel választ egy megadott lehetőséget.
+**A:** Nevet, e-mail címet és jelszót. Ezzel a felhasználó egy fiókot fog létrehozni, ami segítségével elérhetjük őt és az eredmény alapján keletkezett ajánlatokat el tudjuk hozzá juttatni. Fiók nélkül a kitöltés nem lehetséges.
 
 **Q:** A statisztikák elérhetőek lesznek a kitöltők számára? 
-**A:** Csak annyit fog látni, hogy mennyi kérdésre adott helyes választ, az összegzett statisztika csak a kérdéssor írója számára lesz elérhető. 
+**A:** A kérdőivekre lebontott összegzett statisztika csak a munkatársaink számára lesz elérhető, akik ezeket képesek kinyomtatni. A felhasználó kezdetben csak egy kinyomtatható igazoló kódot fog kapni, at eredményeket és az ajánlatokat csak utólagosan kapja meg a kiértékelés után.
 
-**Q:** Az oldalra feltehető kérdéssorokat és felhasználóneveket van lehetőségünk moderálni? 
-**A:** Alap felhasználóként nem, viszont az admin felhasználó a kérdéssorokat és a felhasználóneveket látja és képes ezek alapján cselekedni.
+**Q:** A meglévő kérdéssorok törölhetőek és frissíthetőek?
+**A:** A kérdéssorokat a munkatársaink tudják módosítani: képesek kérdéseket hozzáadni, a meglévő kérdések szövegeit átírni, a meglévőeket törölni a létező kérdéssorokból. Teljes kérdéssorok törlésére is van lehetőség.
 
-**Q:** Az eredményeket le lehet menteni a számítógépre a statisztikákat?
-**A:** Igen, a kvízsorok eredményeit le lehet tölteni CSV állományban, ami ez után beimportálható Excel-táblázatba is. 
-
-**Q:** Miyen típusú kérdések adhatóak meg?
-**A:** Csak feleletválasztós kérdések (esetlegesen több válaszlehetőséggel). A kérdések és a válaszok csak szöveg formában szerpelhetnek, képet és egyéb médiatípusokat kérdésekhez nem lehet csatolni közvetlenül.
+**Q:** A kérdéssorokhoz lehet képeket és egyéb médiákat beszúrni?
+**A:** Igen, a kérdéssorokhoz és az egyéni kérdésekhez csatolhatóak képek, viszont hangok, videók és egyéb állományok nem.
