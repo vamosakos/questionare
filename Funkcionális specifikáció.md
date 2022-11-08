@@ -62,7 +62,9 @@ A mi weboldalunk teljesen átfedi ezeknek a kutatásoknak az előrehaladását. 
 
 
 ## 6. Használati esetek
-...
+Lesz egy vendég "felhasználónk", aki képes lesz kvízeket kitölteni és (esetlegesen) fiókot létrehozni. 
+A regisztrált felhasználó képes lesz kvízeket létrehozni és megnézni a saját kvízeinek eredményét, amit képes lesz kiexportálni CSV-be. 
+Az admin felhasználó látja az összes felhasználó kvízeit és a kvízek eredményeit. Ezeket törölni és módosítani is tudja. Képes felhasználókat tiltani vagy a tiltásokat visszavonni. Adminná nem tud más felhasználót tenni. Ő is képes kérdéssorokat létrehozni és azok eredményeit megtekinteni. 
 
 
 ## 7. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
