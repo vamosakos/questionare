@@ -1,7 +1,7 @@
 # Rendszerterv
 
 ## 1. A rendszer célja
-...
+A rendszer célja, hogy a felhasználó könnyenedén tudjon kérdőívekeket keresni, kitölteni. A felhasználó ezek mellett, egyszerűen tud saját kérdőívet is létrehozni, sőt akár ki is tudja nyomtatni azt. Ha viszont a felhasználó bele szeretne nyúlni a saját kérdőívén, akkor azt roppant egyszerűen tudja szerkeszteni, mivel erre is van lehetőség. A már beregisztrált felhasználók, feltölthetnek kérdőíveket, amik bekerülnek az adatbázisba. Fontos, hogy a felhasználó könnyen eltudjon igazodni a felületeken, ezért minimalista felhasználói felületet kap a weboldal. Mivel ez egy weboldal, tervünk, hogy alkalmazkodjon az eszközhöz, tehát mobilon (Android/IOS) és számítógépen is könnyedén kezelhető legyen.
 
 ### Vágyálom rendszer
 ...
