@@ -48,7 +48,7 @@
 - Statisztika nyomtatása gomb: statisztikák nyomtatására szolgál.
 
 ### Nem funkcionális követelmények:
-...
+A felhasználók nem jutnak hozzá más felhasználók személyes adataihoz a nevükön és az azonosítokon kívül.
 
 ### Törvényi előírások, szabványok
 ...
