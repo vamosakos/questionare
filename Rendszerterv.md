@@ -54,7 +54,7 @@ A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép 
 - Statisztika nyomtatása gomb: statisztikák nyomtatására szolgál.
 
 ### Nem funkcionális követelmények:
-A felhasználók nem jutnak hozzá más felhasználók személyes adataihoz a nevükön és az azonosítokon kívül.
+A felhasználók nem jutnak hozzá más felhasználók személyes adataihoz a nevükön és az azonosítókon kívül.
 
 ### Törvényi előírások, szabványok
 - GDPR betartása.
