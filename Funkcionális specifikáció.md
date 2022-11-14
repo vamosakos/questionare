@@ -117,7 +117,7 @@ Egyszerű, gyorsan értelmezhető, letisztult felhasználói felület: Elképesz
 
 
 ## 11. Fogalomtár
-**anonimitás:** névtelenség
-**reszponzív:** az alkalmazás kinézete és működése az éppen használt eszközhöz igazodik
-**PDF:** Portsble Document Formst, dokumentumok tárolására alkalmas fájltípus
-**regisztráció:** fiók létrehozása, hozzáférés igénylése egy oldal tartalmához vagy funkcióihoz
+- **anonimitás:** névtelenség
+- **reszponzív:** az alkalmazás kinézete és működése az éppen használt eszközhöz igazodik
+- **PDF:** Portable Document Format, dokumentumok tárolására alkalmas fájltípus
+- **regisztráció:** fiók létrehozása, hozzáférés igénylése egy oldal tartalmához vagy funkcióihoz
