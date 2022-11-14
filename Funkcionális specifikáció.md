@@ -74,8 +74,8 @@ Első feladat: A felhasználó regisztrál az oldalra (meglévő fiók esetén a
 - Regisztráció
 - Adatok újbóli beírása (e-mail, jelszó)
 - Bejelentkezés
-Második feladat: Kvíz kitöltése
-- A kitöltendő kvíz melleti Kitöltés gomb
+Második feladat: Kérdőív kitöltése
+- A kitöltendő kérdőív melleti (Kitöltés gomb)
 - A legmegfelelőbb válasz megjelölése
 - Következő (az utolsó kérdésig az első három pont ismétlődik)
 - Beküldés
