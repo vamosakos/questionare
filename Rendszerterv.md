@@ -115,7 +115,7 @@
 
 
 ## 6. Fizikai Környezet
-...
+A teszt webes környezetben és minden böngészőben reszponzívnak készül el.Nincsenek megvásárolt komponenseink.
 
 
 ## 7. Fejlesztői eszközök:
