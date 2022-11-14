@@ -157,4 +157,12 @@ A kérdőíveket egy PHP keretrendszer segítségével tesszük a felhasználó 
 A webalkalmazás fejlesztését külön-külön felosztjuk a csapat között, ebbe beleértve az oldal backend és frontend kódját, a deisgnt és a vázat. 
 
 ## 11. Használt technológiák
-
+- Trello: kanban tábla a projekt szervezéséhez és kezeléséhez
+- Discord: a csapattagok közötti kommunikáció
+- Git: verziókezelés (azon belül is az ezt használó GitHub oldalt használva)
+- MySQL / MariaDB: adatbázisszerver
+- Apache2: webszerver
+- Visual Studio Code: a weboldal elemei kódjának megírásához
+- HTML: a weboldal "vázát" adjuk meg
+- CSS: a weboldal kinézetét határozzuk meg
+- PHP / Laravel: formokhoz, az adatbázisok kezeléséhez, a statisztika előállításához
