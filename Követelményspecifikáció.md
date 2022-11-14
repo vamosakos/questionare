@@ -24,7 +24,6 @@ A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép 
 
 
 ## 4. Funkcionális követelmények
-
 - **Bejelentkezés gomb:** felhasználónév és jelszó együttes megadásával beléphetünk a saját fiókunkba.
 - **Regisztrációs gomb:** az itt megadott adatainkkal kitöltve tudunk fiókot létrehozni.
 - **Kérdőív feltöltése gomb:** kérdőívek feltöltésére szolgál.
@@ -64,8 +63,8 @@ A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép 
 
 
 ## 6. Jelenlegi üzleti folyamatok modellje
-A mai világban egyre több ember használ kérdőíveket.Ez által, a mi csoportunk célja az, hogy egy minél átláthatóbb, könnyen kezelhető weboldalt hozzunk létre, kérdőívet használók számára. 
-A kivitelezésnél segítenek a folyamatok, különböző ábrákkal, diagrammokkal lesznek a végén szemléltetve egy adott krédőív válaszai.
+A mai világban egyre több ember használ kérdőíveket. Ez által, a mi csoportunk célja az, hogy egy minél átláthatóbb, könnyen kezelhető weboldalt hozzunk létre, kérdőívet használók számára. 
+A kivitelezésnél segítenek a folyamatok, különböző ábrákkal, diagrammokkal lesznek a végén szemléltetve egy adott kérdőív válaszai.
 
 
 ## 7. Igényelt üzleti folyamatok
