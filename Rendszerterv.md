@@ -119,7 +119,10 @@ A teszt webes környezetben és minden böngészőben reszponzívnak készül el
 
 
 ## 7. Fejlesztői eszközök:
-...
+- Sublime Text
+- Visual Studio Code
+- Laravel
+- Xampp
 
 
 ## 8. Architekturális terv
