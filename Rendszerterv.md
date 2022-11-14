@@ -51,7 +51,9 @@
 A felhasználók nem jutnak hozzá más felhasználók személyes adataihoz a nevükön és az azonosítokon kívül.
 
 ### Törvényi előírások, szabványok
-...
+- GDPR betartása.
+- AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE.
+- Az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény 4.§ (1) és (2) bekezdései. 
 
 
 ## 5. Funkcionális terv
