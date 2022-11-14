@@ -139,7 +139,9 @@ A teszt webes környezetben és minden böngészőben reszponzívnak készül el
 
 
 ## 8. Architekturális terv
-...
+- A kérdőívek és a felhasználók adatai egy MySQL adatbázisban tárolódnak. 
+- Az adatbázist és a weboldalt PHP-ban (Laravel) kötjük össze.
+- A weboldal "vázát" HTML nyelven írjuk le, a kinézethez CSS-t használunk.
 
 
 ## 9. Adatbázis terv
