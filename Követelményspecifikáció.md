@@ -87,17 +87,17 @@ A kivitelezésnél segítenek a folyamatok, különböző ábrákkal, diagrammok
 
 
 ## 9. Riportok
-**Q:** Mi lenne a szoftver lényege?
-**A:** A szoftver egy felmérő lenne, ahol a munkatársaink űrlapokat állíthatnak össze, amire az esetleges ügyfeleink válaszolhatnak. A válaszokat statisztikába rendezhetőek és a kapott adatok alapján képesek vagyunk bemérni, hogy a kitöltőnek melyik hely a legoptimálisabb. 
+- **Q:** Mi lenne a szoftver lényege?
+- **A:** A szoftver egy felmérő lenne, ahol a munkatársaink űrlapokat állíthatnak össze, amire az esetleges ügyfeleink válaszolhatnak. A válaszok statisztikába rendezhetőek és a kapott adatok alapján képesek vagyunk bemérni, hogy a kitöltőnek melyik hely a legoptimálisabb. 
 
-**Q:** Milyen adatokat fog a program bekérni a felhasználótól a kérdéssor előtt?
-**A:** Nevet, e-mail címet és jelszót. Ezzel a felhasználó egy fiókot fog létrehozni, ami segítségével elérhetjük őt és az eredmény alapján keletkezett ajánlatokat el tudjuk hozzá juttatni. Fiók nélkül a kitöltés nem lehetséges.
+- **Q:** Milyen adatokat fog a program bekérni a felhasználótól a kérdéssor előtt?
+- **A:** Nevet, e-mail címet és jelszót. Ezzel a felhasználó egy fiókot fog létrehozni, ami segítségével elérhetjük őt és az eredmény alapján keletkezett ajánlatokat el tudjuk hozzá juttatni. Fiók nélkül a kitöltés nem lehetséges.
 
-**Q:** A statisztikák elérhetőek lesznek a kitöltők számára? 
-**A:** A kérdőivekre lebontott összegzett statisztika csak a munkatársaink számára lesz elérhető, akik ezeket képesek kinyomtatni. A felhasználó kezdetben csak egy kinyomtatható igazoló kódot fog kapni, at eredményeket és az ajánlatokat csak utólagosan kapja meg a kiértékelés után.
+- **Q:** A statisztikák elérhetőek lesznek a kitöltők számára? 
+- **A:** A kérdőivekre lebontott összegzett statisztika csak a munkatársaink számára lesz elérhető, akik ezeket képesek kinyomtatni. A felhasználó kezdetben csak egy kinyomtatható igazoló kódot fog kapni, az eredményeket és az ajánlatokat csak utólagosan kapja meg a kiértékelés után.
 
-**Q:** A meglévő kérdéssorok törölhetőek és frissíthetőek?
-**A:** A kérdéssorokat a munkatársaink tudják módosítani: képesek kérdéseket hozzáadni, a meglévő kérdések szövegeit átírni, a meglévőeket törölni a létező kérdéssorokból. Teljes kérdéssorok törlésére is van lehetőség.
+- **Q:** A meglévő kérdéssorok törölhetőek és frissíthetőek?
+- **A:** A kérdéssorokat a munkatársaink tudják módosítani: képesek kérdéseket hozzáadni, a meglévő kérdések szövegeit átírni, a meglévőeket törölni a létező kérdéssorokból. Teljes kérdéssorok törlésére is van lehetőség.
 
-**Q:** A kérdéssorokhoz lehet képeket és egyéb médiákat beszúrni?
-**A:** Igen, a kérdéssorokhoz és az egyéni kérdésekhez csatolhatóak képek, viszont hangok, videók és egyéb állományok nem.
+- **Q:** A kérdéssorokhoz lehet képeket és egyéb médiákat beszúrni?
+- **A:** Igen, a kérdéssorokhoz és az egyéni kérdésekhez csatolhatóak képek, viszont hangok, videók és egyéb állományok nem.
