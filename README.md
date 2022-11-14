@@ -2,4 +2,8 @@
 
 ## IT crew AFP nagy projekt (2022/2023 I. félév)
 
-Vámos Ákos, Vámos Márton, Csanádi Balázs, Palotai Marcell Martin, Madarasi Gábor 
+- Vámos Ákos János
+- Vámos Márton Márton
+- Csanádi Balázs
+- Madarasi Gábor 
+- Palotai Marcell Martin (AFP3)
