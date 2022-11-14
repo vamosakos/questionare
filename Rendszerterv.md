@@ -134,14 +134,14 @@ A felhasználók nem jutnak hozzá más felhasználók személyes adataihoz a ne
 
 
 ## 6. Fizikai Környezet
-A teszt webes környezetben és minden böngészőben reszponzívnak készül el.Nincsenek megvásárolt komponenseink.
+A teszt webes környezetben és minden böngészőben reszponzívnak készül el. Nincsenek megvásárolt komponenseink.
 
 
 ## 7. Fejlesztői eszközök:
 - Sublime Text
 - Visual Studio Code
 - Laravel
-- Xampp
+- XAMPP
 
 
 ## 8. Architekturális terv
