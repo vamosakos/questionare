@@ -149,8 +149,12 @@ A teszt webes környezetben és minden böngészőben reszponzívnak készül el
 
 
 ## 10. Implementációs terv
-...
 
+Egy kérdőív kitöltő webalkalmazást készítünk.
+
+A kérdőíveket egy PHP keretrendszer segítségével tesszük a felhasználó számára elérhetővé egy adatbázisból kérdésenként (amik között a felhasználó egy gombnyomással tud lépkedni), jegyezzük fel a kérdésekre az adott válaszait és állítunk ezekből össze statisztikát, illetve magának a felhasználónak az adatait is ezzel regisztráljuk az adatbázisba - mindegyik külön PHP fájlokban az egyszerűbben áttekinthetőbb kód végett. 
+
+A webalkalmazás fejlesztését külön-külön felosztjuk a csapat között, ebbe beleértve az oldal backend és frontend kódját, a deisgnt és a vázat. 
 
 ## 11. Használt technológiák
-...
+
