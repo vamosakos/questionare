@@ -94,8 +94,8 @@ Második feladat: Kérdőív kitöltése
 2. A felhasználó regisztrál a "Regisztrálás" gomb megnyomásával. (Vagy bejelentkezik a már meglévő fiókjával)
 3. A felhasználó a frissen létrehozott fiókjával bejelentkezik. 
 4. A felhasználó kiválaszt egy kérdőívet a kérdőív neve melletti "Kitöltés" gombbal.
-5. A felhsználó kiválaszt egy válaszlheteőséget, majd a "Következő" gombbal a következő kérdésre megy. Ez egészen az utolsó kérdésig megy. 
-6. Az utolsó kérdés során a "Következő" gomb "Beküldés" gombra vált, ami átirányít egy olyan oldalra, ahol ki lehet nyomtatni az igazoló kódot, illetve a felhasználó értesül a teszt sikeres kitöltéséről.
+5. A felhasználó kiválaszt egy válaszlehetőséget, majd a "Következő" gombbal a következő kérdésre megy. Ez egészen az utolsó kérdésig megy. 
+6. Az utolsó kérdés során a "Következő" gomb "Beküldés" gombra vált, ami átirányít egy olyan oldalra, ahol ki lehet nyomtatni az igazoló kódot, illetve a felhasználó értesül a kérdőív sikeres kitöltéséről.
 7. A feldolgozási idő elteltével az iroda főoldalán az ajánlatok személyre szabottabbak. 
 
 
