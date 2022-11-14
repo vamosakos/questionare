@@ -1,10 +1,16 @@
 # Rendszerterv
 
 ## 1. A rendszer célja
-A rendszer célja, hogy a felhasználó könnyenedén tudjon kérdőívekeket keresni, kitölteni. A felhasználó ezek mellett, egyszerűen tud saját kérdőívet is létrehozni, sőt akár ki is tudja nyomtatni azt. Ha viszont a felhasználó bele szeretne nyúlni a saját kérdőívén, akkor azt roppant egyszerűen tudja szerkeszteni, mivel erre is van lehetőség. A már beregisztrált felhasználók, feltölthetnek kérdőíveket, amik bekerülnek az adatbázisba. Fontos, hogy a felhasználó könnyen eltudjon igazodni a felületeken, ezért minimalista felhasználói felületet kap a weboldal. Mivel ez egy weboldal, tervünk, hogy alkalmazkodjon az eszközhöz, tehát mobilon (Android/IOS) és számítógépen is könnyedén kezelhető legyen.
+A rendszer célja, hogy a felhasználó könnyedén tudjon kérdőívekeket keresni, kitölteni. Az adminisztrátor (munkatárs) ezek mellett, egyszerűen tud saját kérdőívet is létrehozni, sőt akár ki is tudja nyomtatni azt. Ha viszont az adminisztrátor bele szeretne nyúlni a saját kérdőívébe, akkor azt roppant egyszerűen tudja szerkeszteni, mivel erre is van lehetőség. A már beregisztrált felhasználók, kitölthetnek kérdőíveket, amik bekerülnek az adatbázisba. Fontos, hogy a felhasználó könnyen eltudjon igazodni a felületeken, ezért minimalista felhasználói felületet kap a weboldal. Mivel ez egy weboldal, tervünk, hogy alkalmazkodjon az eszközhöz, tehát mobilon (Android/IOS) és számítógépen is könnyedén kezelhető legyen.
 
 ### Vágyálom rendszer
-...
+Egy olyan weboldalra, illetve rendszerre van szükségünk, ahol ügyfeleink igényeit ismerjük meg.
+Ehhez azonban elengedhetetlen a letisztult, reszponzív dizájn és a figyelemet fenntartó tartalom.
+Éppen ezért kifejezetten alapos munkát igényel a felhasználó-barát elrendezés és a megfelelő megjelenés.
+Továbbá szolgálatatásunkat hasonló interface keretében egy mobil appon keresztül is elérhetővé szeretnénk tenni.
+Mindezenmellett, megszeretnénk könnyíteni elkötelezett munkatársaink dolgát is.
+A kérdőívek létrehozásánál lehetőség van személyreszabható opcionális minta megadására a válaszok feltöltésénél.
+A háttérfolyamatok, mérések és statisztikák egyszerű kezelésére a gép által automatikusan generált diagrammok és ábrák segítenek majd.
 
 ## 2. Projektterv
 - **Developer Team**: Csanádi Balázs, Madarasi Gábor, Vámos Ákos, Vámos Márton,  
