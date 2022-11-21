@@ -28,3 +28,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/questionnaires/create', 'App\Http\Controllers\QuestionnaireController@create');
 Route::post('/questionnaires', 'App\Http\Controllers\QuestionnaireController@store');
 Route::get('/questionnaires/{questionnaire}', 'App\Http\Controllers\QuestionnaireController@show');
+
+Route::get('/questionnaires/{questionnaire}/questions/create', 'App\Http\Controllers\QuestionController@create');
+Route::post('/questionnaires/{questionnaire}/questions', 'App\Http\Controllers\QuestionController@store');
