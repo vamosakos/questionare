@@ -24,3 +24,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/questionnaires/create', 'App\Http\Controllers\QuestionnaireController@create');
+Route::post('/questionnaires', 'App\Http\Controllers\QuestionnaireController@store');
+Route::get('/questionnaires/{questionnaire}', 'App\Http\Controllers\QuestionnaireController@show');
