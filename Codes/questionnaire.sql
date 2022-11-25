@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2022. Nov 21. 22:54
+-- Létrehozás ideje: 2022. Nov 25. 19:02
 -- Kiszolgáló verziója: 10.4.25-MariaDB
 -- PHP verzió: 8.1.10
 
@@ -47,7 +47,11 @@ INSERT INTO `answers` (`id`, `question_id`, `answer`, `created_at`, `updated_at`
 (5, 2, 'valasz1', '2022-11-21 20:22:14', '2022-11-21 20:22:14'),
 (6, 2, 'valasz2', '2022-11-21 20:22:14', '2022-11-21 20:22:14'),
 (7, 2, 'valasz3', '2022-11-21 20:22:14', '2022-11-21 20:22:14'),
-(8, 2, 'valasz4', '2022-11-21 20:22:14', '2022-11-21 20:22:14');
+(8, 2, 'valasz4', '2022-11-21 20:22:14', '2022-11-21 20:22:14'),
+(9, 3, 'valasz1', '2022-11-25 15:57:12', '2022-11-25 15:57:12'),
+(10, 3, 'valasz2', '2022-11-25 15:57:12', '2022-11-25 15:57:12'),
+(11, 3, 'valasz3', '2022-11-25 15:57:12', '2022-11-25 15:57:12'),
+(12, 3, 'valasz4', '2022-11-25 15:57:12', '2022-11-25 15:57:12');
 
 -- --------------------------------------------------------
 
@@ -88,7 +92,9 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (4, '2019_12_14_000001_create_personal_access_tokens_table', 1),
 (5, '2022_11_21_164914_create_questionnaires_table', 2),
 (6, '2022_11_21_192652_create_questions_table', 3),
-(7, '2022_11_21_192709_create_answers_table', 3);
+(7, '2022_11_21_192709_create_answers_table', 3),
+(8, '2022_11_25_171515_create_surveys_table', 4),
+(9, '2022_11_25_171806_create_survey_responses_table', 5);
 
 -- --------------------------------------------------------
 
@@ -172,7 +178,53 @@ CREATE TABLE `questions` (
 
 INSERT INTO `questions` (`id`, `questionnaire_id`, `question`, `created_at`, `updated_at`) VALUES
 (1, 1, 'teszt kérdés1', '2022-11-21 20:09:12', '2022-11-21 20:09:12'),
-(2, 3, 'kerdes1', '2022-11-21 20:22:13', '2022-11-21 20:22:13');
+(2, 3, 'kerdes1', '2022-11-21 20:22:13', '2022-11-21 20:22:13'),
+(3, 1, 'kerdes2', '2022-11-25 15:57:12', '2022-11-25 15:57:12');
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `surveys`
+--
+
+CREATE TABLE `surveys` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `questionnaire_id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- A tábla adatainak kiíratása `surveys`
+--
+
+INSERT INTO `surveys` (`id`, `questionnaire_id`, `name`, `email`, `created_at`, `updated_at`) VALUES
+(4, 1, 'Teszt Elek', 'tesztelek@gmail.com', '2022-11-25 16:54:59', '2022-11-25 16:54:59');
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `survey_responses`
+--
+
+CREATE TABLE `survey_responses` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `survey_id` bigint(20) UNSIGNED NOT NULL,
+  `question_id` bigint(20) UNSIGNED NOT NULL,
+  `answer_id` bigint(20) UNSIGNED NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- A tábla adatainak kiíratása `survey_responses`
+--
+
+INSERT INTO `survey_responses` (`id`, `survey_id`, `question_id`, `answer_id`, `created_at`, `updated_at`) VALUES
+(1, 4, 1, 1, '2022-11-25 16:54:59', '2022-11-25 16:54:59'),
+(2, 4, 3, 12, '2022-11-25 16:54:59', '2022-11-25 16:54:59');
 
 -- --------------------------------------------------------
 
@@ -248,6 +300,18 @@ ALTER TABLE `questions`
   ADD PRIMARY KEY (`id`);
 
 --
+-- A tábla indexei `surveys`
+--
+ALTER TABLE `surveys`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- A tábla indexei `survey_responses`
+--
+ALTER TABLE `survey_responses`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- A tábla indexei `users`
 --
 ALTER TABLE `users`
@@ -262,7 +326,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT a táblához `answers`
 --
 ALTER TABLE `answers`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT a táblához `failed_jobs`
@@ -274,7 +338,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT a táblához `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT a táblához `personal_access_tokens`
@@ -292,6 +356,18 @@ ALTER TABLE `questionnaires`
 -- AUTO_INCREMENT a táblához `questions`
 --
 ALTER TABLE `questions`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT a táblához `surveys`
+--
+ALTER TABLE `surveys`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT a táblához `survey_responses`
+--
+ALTER TABLE `survey_responses`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
