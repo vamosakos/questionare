@@ -38,44 +38,39 @@
                     </div>
                 @endforeach
 
-                <div class="card mt-4" ><button class="btn btn-dark" type="submit">Complete Survey</button></div>
-            </form>
+                <div class="card mt-4">
+                    <div class="card-header">{{ __('Your information') }}</div>
 
-            <!-- <div class="card">
-                <div class="card-header">{{ __('Create New Questionnaire') }}</div>
-
-                <div class="card-body">
-                    <form action="#" method="post">
-                        
-                        @csrf
-
+                    <div class="card-body">
                         <div class="form-group">
-                            <label for="title">Title</label>
-                            <input name="title" type="text" class="form-control" id="title" aria-describedby="titleHelp" placeholder="Enter Title">
-                            <small id="titleHelp" class="form-text text-muted">Give your questionnaire a title that attracts attention.</small>
-                        
+                            <label for="name">Your Name</label>
+                            <input name="survey[name]" type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter Name">
+                            <small id="nameHelp" class="form-text text-muted">Hello! What's your name?</small>
 
-                            @error('title')
+
+                            @error('name')
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
                         </div>
                         
+
                         <div class="form-group">
-                            <label for="purpose">Purpose</label>
-                            <input name="purpose" type="text" class="form-control" id="purpose" aria-describedby="purposeHelp" placeholder="Enter Purpose">
-                            <small id="purposeHelp" class="form-text text-muted">Giving a purpose will increase responses.</small>
+                            <label for="email">Your Email here</label>
+                            <input name="survey[email]" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email">
+                            <small id="emailHelp" class="form-text text-muted">Your Email Please!</small>
                             
-                            
-                            @error('purpose')
+                        
+                            @error('email')
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Create Questionnaire</button>    
-
-                    </form>
+                        <div>
+                            <button class="btn btn-dark" type="submit">Complete Survey</button>
+                        </div>
+                    <div>
                 </div>
-            </div> -->
+            </form>
         </div>
     </div>
 </div>
