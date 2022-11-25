@@ -31,3 +31,6 @@ Route::get('/questionnaires/{questionnaire}', 'App\Http\Controllers\Questionnair
 
 Route::get('/questionnaires/{questionnaire}/questions/create', 'App\Http\Controllers\QuestionController@create');
 Route::post('/questionnaires/{questionnaire}/questions', 'App\Http\Controllers\QuestionController@store');
+
+Route::get('/surveys/{questionnaire}-{slug}', 'App\Http\Controllers\SurveyController@show');
+Route::post('/surveys/{questionnaire}-{slug}', 'App\Http\Controllers\SurveyController@store');
