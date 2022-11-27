@@ -1,6 +1,7 @@
 <?php
-
 namespace App\Http\Controllers;
+
+
 
 use Illuminate\Http\Request;
 
@@ -25,6 +26,7 @@ class SurveyController extends Controller
         $survey = $questionnaire->surveys()->create($data['survey']);
         $survey->responses()->createMany($data['responses']);
 
-        return 'Thank you!';
+        return "<div>Thank you!<a href='/home'><br>Back to home page</a></div>";
     }
 }
+?>
