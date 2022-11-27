@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Questionnaire extends Model
 {
@@ -13,6 +14,11 @@ class Questionnaire extends Model
     public function path()
     {
         return url('/questionnaires/' . $this->id);
+    }
+
+    public function publicPath()
+    {
+        return url('/surveys/'.$this->id.'-'. Str::slug($this->title));
     }
 
     public function user()
