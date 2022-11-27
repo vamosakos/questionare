@@ -25,13 +25,13 @@
                     <ul class="list-group">
                         @foreach($questionnaires as $questionnaire)
                             <li class="list-group-item">
-                                <a href="{{ $questionnaire->path() }}">{{ $questionnaire->title }}</a>
+                                <a class="row justify-content-center" href="{{ $questionnaire->path() }}">{{ $questionnaire->title }}</a>
                             
 
-                                <div class="mt-2">
+                                <div class="mt-2">                            
                                     <small class="font-weight-bold">Share URL</small>
                                     <p>
-                                        <a href="{{ $questionnaire->publicPath() }}">
+                                        <a class="list-group-item" href="{{ $questionnaire->publicPath() }}">
                                             {{ $questionnaire->publicPath() }}
                                         </a>
                                     </p>
