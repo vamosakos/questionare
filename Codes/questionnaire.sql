@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2022. Nov 25. 19:02
+-- Létrehozás ideje: 2022. Nov 27. 20:15
 -- Kiszolgáló verziója: 10.4.25-MariaDB
 -- PHP verzió: 8.1.10
 
@@ -40,18 +40,26 @@ CREATE TABLE `answers` (
 --
 
 INSERT INTO `answers` (`id`, `question_id`, `answer`, `created_at`, `updated_at`) VALUES
-(1, 1, 'valasz1', '2022-11-21 20:09:12', '2022-11-21 20:09:12'),
-(2, 1, 'valasz2', '2022-11-21 20:09:12', '2022-11-21 20:09:12'),
-(3, 1, 'valasz3', '2022-11-21 20:09:12', '2022-11-21 20:09:12'),
-(4, 1, 'valasz4', '2022-11-21 20:09:12', '2022-11-21 20:09:12'),
-(5, 2, 'valasz1', '2022-11-21 20:22:14', '2022-11-21 20:22:14'),
-(6, 2, 'valasz2', '2022-11-21 20:22:14', '2022-11-21 20:22:14'),
-(7, 2, 'valasz3', '2022-11-21 20:22:14', '2022-11-21 20:22:14'),
-(8, 2, 'valasz4', '2022-11-21 20:22:14', '2022-11-21 20:22:14'),
-(9, 3, 'valasz1', '2022-11-25 15:57:12', '2022-11-25 15:57:12'),
-(10, 3, 'valasz2', '2022-11-25 15:57:12', '2022-11-25 15:57:12'),
-(11, 3, 'valasz3', '2022-11-25 15:57:12', '2022-11-25 15:57:12'),
-(12, 3, 'valasz4', '2022-11-25 15:57:12', '2022-11-25 15:57:12');
+(21, 6, '2022', '2022-11-27 17:43:49', '2022-11-27 17:43:49'),
+(22, 6, '2021', '2022-11-27 17:43:49', '2022-11-27 17:43:49'),
+(23, 6, '2020', '2022-11-27 17:43:49', '2022-11-27 17:43:49'),
+(24, 6, 'Egyéb', '2022-11-27 17:43:49', '2022-11-27 17:43:49'),
+(25, 7, 'Nem', '2022-11-27 17:45:50', '2022-11-27 17:45:50'),
+(26, 7, 'Igen, egyszer', '2022-11-27 17:45:50', '2022-11-27 17:45:50'),
+(27, 7, 'Igen, már többször is', '2022-11-27 17:45:50', '2022-11-27 17:45:50'),
+(28, 7, 'Nem kívánok válaszolni', '2022-11-27 17:45:51', '2022-11-27 17:45:51'),
+(29, 8, 'Magyarországra', '2022-11-27 17:48:57', '2022-11-27 17:48:57'),
+(30, 8, 'Külföldre', '2022-11-27 17:48:57', '2022-11-27 17:48:57'),
+(31, 8, 'Jelenleg nem tervezek sehova sem menni', '2022-11-27 17:48:57', '2022-11-27 17:48:57'),
+(32, 8, 'Nem kívánok válaszolni', '2022-11-27 17:48:57', '2022-11-27 17:48:57'),
+(33, 9, '5 pont', '2022-11-27 17:52:54', '2022-11-27 17:52:54'),
+(34, 9, '3-4 pont', '2022-11-27 17:52:54', '2022-11-27 17:52:54'),
+(35, 9, '1-2 pont', '2022-11-27 17:52:54', '2022-11-27 17:52:54'),
+(36, 9, '0 pont', '2022-11-27 17:52:54', '2022-11-27 17:52:54'),
+(37, 10, '5 pont', '2022-11-27 17:53:33', '2022-11-27 17:53:33'),
+(38, 10, '3-4 pont', '2022-11-27 17:53:34', '2022-11-27 17:53:34'),
+(39, 10, '1-2 pont', '2022-11-27 17:53:34', '2022-11-27 17:53:34'),
+(40, 10, '0 pont', '2022-11-27 17:53:34', '2022-11-27 17:53:34');
 
 -- --------------------------------------------------------
 
@@ -154,9 +162,8 @@ CREATE TABLE `questionnaires` (
 --
 
 INSERT INTO `questionnaires` (`id`, `user_id`, `title`, `purpose`, `created_at`, `updated_at`) VALUES
-(1, 1, 'teszt0', 'teszt0', '2022-11-21 18:13:04', '2022-11-21 18:13:04'),
-(2, 1, 'teszt1', 'teszt1', '2022-11-21 18:22:18', '2022-11-21 18:22:18'),
-(3, 1, 'teszt2', 'teszt2', '2022-11-21 20:21:18', '2022-11-21 20:21:18');
+(6, 1, 'Nyaralási szokások', 'Kérjük töltse ki, hogy megismerhessük nyaralási szokásait', '2022-11-27 17:41:07', '2022-11-27 17:41:07'),
+(7, 1, 'Vélemény a weboldalról', 'Kitöltésével visszaigazolást kaphatunk weboldalunkkal kapcsolatban', '2022-11-27 17:50:58', '2022-11-27 17:50:58');
 
 -- --------------------------------------------------------
 
@@ -177,9 +184,11 @@ CREATE TABLE `questions` (
 --
 
 INSERT INTO `questions` (`id`, `questionnaire_id`, `question`, `created_at`, `updated_at`) VALUES
-(1, 1, 'teszt kérdés1', '2022-11-21 20:09:12', '2022-11-21 20:09:12'),
-(2, 3, 'kerdes1', '2022-11-21 20:22:13', '2022-11-21 20:22:13'),
-(3, 1, 'kerdes2', '2022-11-25 15:57:12', '2022-11-25 15:57:12');
+(6, 6, 'Mikor volt utoljára nyaralni?', '2022-11-27 17:43:49', '2022-11-27 17:43:49'),
+(7, 6, 'Járt már külföldön?', '2022-11-27 17:45:50', '2022-11-27 17:45:50'),
+(8, 6, 'Hova tervez menni nyaralni legközelebb?', '2022-11-27 17:48:57', '2022-11-27 17:48:57'),
+(9, 7, 'Pontozza a dizájnt', '2022-11-27 17:52:54', '2022-11-27 17:52:54'),
+(10, 7, 'Pontozza az elrendezést/átláthatóságot', '2022-11-27 17:53:33', '2022-11-27 17:53:33');
 
 -- --------------------------------------------------------
 
@@ -201,7 +210,13 @@ CREATE TABLE `surveys` (
 --
 
 INSERT INTO `surveys` (`id`, `questionnaire_id`, `name`, `email`, `created_at`, `updated_at`) VALUES
-(4, 1, 'Teszt Elek', 'tesztelek@gmail.com', '2022-11-25 16:54:59', '2022-11-25 16:54:59');
+(25, 6, 'Teszt Elek', 'teszt.elek@gmail.com', '2022-11-27 17:55:13', '2022-11-27 17:55:13'),
+(26, 6, 'Sövényugró Mariska', 'sovenyugro.mariska@gmail.com', '2022-11-27 17:56:19', '2022-11-27 17:56:19'),
+(27, 6, 'Gipsz Jakab', 'gipsz.jakab@gmail.com', '2022-11-27 17:56:48', '2022-11-27 17:56:48'),
+(28, 7, 'Teszt Elek', 'teszt.elek@gmail.com', '2022-11-27 17:57:20', '2022-11-27 17:57:20'),
+(29, 7, 'Sövényugró Mariska', 'sovenyugro.mariska@gmail.com', '2022-11-27 17:57:45', '2022-11-27 17:57:45'),
+(30, 7, 'Gipsz Jakab', 'gipsz.jakab@gmail.com', '2022-11-27 17:57:58', '2022-11-27 17:57:58'),
+(31, 6, 'Kala Pál', 'kala.pal@gmail.com', '2022-11-27 18:04:35', '2022-11-27 18:04:35');
 
 -- --------------------------------------------------------
 
@@ -223,8 +238,24 @@ CREATE TABLE `survey_responses` (
 --
 
 INSERT INTO `survey_responses` (`id`, `survey_id`, `question_id`, `answer_id`, `created_at`, `updated_at`) VALUES
-(1, 4, 1, 1, '2022-11-25 16:54:59', '2022-11-25 16:54:59'),
-(2, 4, 3, 12, '2022-11-25 16:54:59', '2022-11-25 16:54:59');
+(23, 25, 6, 22, '2022-11-27 17:55:13', '2022-11-27 17:55:13'),
+(24, 25, 7, 27, '2022-11-27 17:55:13', '2022-11-27 17:55:13'),
+(25, 25, 8, 30, '2022-11-27 17:55:13', '2022-11-27 17:55:13'),
+(26, 26, 6, 21, '2022-11-27 17:56:19', '2022-11-27 17:56:19'),
+(27, 26, 7, 25, '2022-11-27 17:56:20', '2022-11-27 17:56:20'),
+(28, 26, 8, 32, '2022-11-27 17:56:20', '2022-11-27 17:56:20'),
+(29, 27, 6, 21, '2022-11-27 17:56:48', '2022-11-27 17:56:48'),
+(30, 27, 7, 25, '2022-11-27 17:56:48', '2022-11-27 17:56:48'),
+(31, 27, 8, 31, '2022-11-27 17:56:48', '2022-11-27 17:56:48'),
+(32, 28, 9, 34, '2022-11-27 17:57:20', '2022-11-27 17:57:20'),
+(33, 28, 10, 37, '2022-11-27 17:57:20', '2022-11-27 17:57:20'),
+(34, 29, 9, 35, '2022-11-27 17:57:45', '2022-11-27 17:57:45'),
+(35, 29, 10, 38, '2022-11-27 17:57:45', '2022-11-27 17:57:45'),
+(36, 30, 9, 34, '2022-11-27 17:57:58', '2022-11-27 17:57:58'),
+(37, 30, 10, 38, '2022-11-27 17:57:58', '2022-11-27 17:57:58'),
+(38, 31, 6, 22, '2022-11-27 18:04:35', '2022-11-27 18:04:35'),
+(39, 31, 7, 25, '2022-11-27 18:04:35', '2022-11-27 18:04:35'),
+(40, 31, 8, 29, '2022-11-27 18:04:35', '2022-11-27 18:04:35');
 
 -- --------------------------------------------------------
 
@@ -326,7 +357,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT a táblához `answers`
 --
 ALTER TABLE `answers`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT a táblához `failed_jobs`
@@ -350,25 +381,25 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT a táblához `questionnaires`
 --
 ALTER TABLE `questionnaires`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT a táblához `questions`
 --
 ALTER TABLE `questions`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT a táblához `surveys`
 --
 ALTER TABLE `surveys`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT a táblához `survey_responses`
 --
 ALTER TABLE `survey_responses`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT a táblához `users`
