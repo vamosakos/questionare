@@ -1,6 +1,7 @@
 # Questionnaire
 
 ## IT crew AFP nagy projekt (2022/2023 I. félév)
+- [] test
 
 - Vámos Ákos János
 - Vámos Márton István
